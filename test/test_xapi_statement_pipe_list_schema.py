@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.xapi_statement_pipe_list_schema import XapiStatementPipeListSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestXapiStatementPipeListSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestXapiStatementPipeListSchema(unittest.TestCase):
     def testXapiStatementPipeListSchema(self):
         """Test XapiStatementPipeListSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.xapi_statement_pipe_list_schema.XapiStatementPipeListSchema()  # noqa: E501
+        # model = rustici_engine.models.xapi_statement_pipe_list_schema.XapiStatementPipeListSchema()  # noqa: E501
         pass
 
 

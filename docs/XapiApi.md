@@ -1,4 +1,4 @@
-# swagger_client.XapiApi
+# rustici_engine.XapiApi
 
 All URIs are relative to */api/v2/*
 
@@ -24,20 +24,20 @@ Create an xAPI statement pipe.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.XapiApi(swagger_client.ApiClient(configuration))
-body = swagger_client.XapiStatementPipePostSchema() # XapiStatementPipePostSchema | 
+api_instance = rustici_engine.XapiApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.XapiStatementPipePostSchema() # XapiStatementPipePostSchema | 
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 
 try:
@@ -79,20 +79,20 @@ Create an xAPI credential
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.XapiApi(swagger_client.ApiClient(configuration))
-body = swagger_client.XapiCredentialPostSchema() # XapiCredentialPostSchema | 
+api_instance = rustici_engine.XapiApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.XapiCredentialPostSchema() # XapiCredentialPostSchema | 
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 
 try:
@@ -136,19 +136,19 @@ Caution: avoid re-creating a statement pipe with the same ID quickly after a del
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.XapiApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.XapiApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 statement_pipe_id = 'statement_pipe_id_example' # str | id for this xAPI statement pipe
 
@@ -190,19 +190,19 @@ Deletes the xAPI credential specified with the id `xapiCredentialId`
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.XapiApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.XapiApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 xapi_credential_id = 'xapi_credential_id_example' # str | id for this xAPI credential
 
@@ -244,19 +244,19 @@ Retrieves xAPI statement pipe specified by id `statementPipeId.`
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.XapiApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.XapiApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 statement_pipe_id = 'statement_pipe_id_example' # str | id for this xAPI statement pipe
 
@@ -299,19 +299,19 @@ Get a list of all xAPI statement pipes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.XapiApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.XapiApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 
 try:
@@ -352,19 +352,19 @@ Retrieves the xAPI credential specified by id `xapiCredentialId`
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.XapiApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.XapiApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 xapi_credential_id = 'xapi_credential_id_example' # str | id for this xAPI credential
 
@@ -407,19 +407,19 @@ Get a list of all xAPI credentials
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.XapiApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.XapiApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 more = 'more_example' # str | Value for this parameter will be provided in the 'more' property of lists, where needed. An opaque value, construction and parsing may change without notice. (optional)
 
@@ -464,20 +464,20 @@ Editing a statement pipe will cause it to start over and forward any statements 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.XapiApi(swagger_client.ApiClient(configuration))
-body = swagger_client.XapiStatementPipePutSchema() # XapiStatementPipePutSchema | 
+api_instance = rustici_engine.XapiApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.XapiStatementPipePutSchema() # XapiStatementPipePutSchema | 
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 statement_pipe_id = 'statement_pipe_id_example' # str | id for this xAPI statement pipe
 
@@ -520,20 +520,20 @@ Either edits an existing xAPI credential or creates a new one, specified by id `
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.XapiApi(swagger_client.ApiClient(configuration))
-body = swagger_client.XapiCredentialPutSchema() # XapiCredentialPutSchema | 
+api_instance = rustici_engine.XapiApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.XapiCredentialPutSchema() # XapiCredentialPutSchema | 
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 xapi_credential_id = 'xapi_credential_id_example' # str | id for this xAPI credential
 

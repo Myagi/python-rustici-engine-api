@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.token_request_schema import TokenRequestSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestTokenRequestSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestTokenRequestSchema(unittest.TestCase):
     def testTokenRequestSchema(self):
         """Test TokenRequestSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.token_request_schema.TokenRequestSchema()  # noqa: E501
+        # model = rustici_engine.models.token_request_schema.TokenRequestSchema()  # noqa: E501
         pass
 
 

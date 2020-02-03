@@ -1,4 +1,4 @@
-# swagger_client.AppManagementApi
+# rustici_engine.AppManagementApi
 
 All URIs are relative to */api/v2/*
 
@@ -33,20 +33,20 @@ Create credential
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CredentialRequestSchema() # CredentialRequestSchema | 
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.CredentialRequestSchema() # CredentialRequestSchema | 
 engine_tenant_name = 'engine_tenant_name_example' # str | If specified, the tenant that will be used to store or validate the credentials or token. If not specified, the system data store / settings will be used. Note that PermissionsSchema contains 'tenantName' which should be used for any permissions that need to be scoped to a particular tenant.  (optional)
 
 try:
@@ -88,19 +88,19 @@ Create or update tenant
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
 body = NULL # object | 
 tenant_name = 'tenant_name_example' # str | 
 
@@ -144,20 +144,20 @@ Creates, signs and returns a token based on the provided permissions, if the cre
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
-body = swagger_client.TokenRequestSchema() # TokenRequestSchema | 
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.TokenRequestSchema() # TokenRequestSchema | 
 engine_tenant_name = 'engine_tenant_name_example' # str | If specified, the tenant that will be used to store or validate the credentials or token. If not specified, the system data store / settings will be used. Note that PermissionsSchema contains 'tenantName' which should be used for any permissions that need to be scoped to a particular tenant.  (optional)
 
 try:
@@ -199,19 +199,19 @@ Clears the `settingId` value for this level
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
 setting_id = 'setting_id_example' # str | 
 engine_tenant_name = 'engine_tenant_name_example' # str | optional tenant for this request (optional)
 learning_standard = 'learning_standard_example' # str | Required if singleSco is specified. Scopes the request to the provided learning standard. (optional)
@@ -257,19 +257,19 @@ Removes `credentialId` credentials
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
 credential_id = 'credential_id_example' # str | 
 engine_tenant_name = 'engine_tenant_name_example' # str | If specified, the tenant that will be used to store or validate the credentials or token. If not specified, the system data store / settings will be used. Note that PermissionsSchema contains 'tenantName' which should be used for any permissions that need to be scoped to a particular tenant.  (optional)
 
@@ -311,19 +311,19 @@ Delete a tenant. Warning: If tenant data is not deleted first, this will leave o
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
 tenant_name = 'tenant_name_example' # str | 
 
 try:
@@ -363,19 +363,19 @@ Delete all of a tenant's data.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
 tenant_name = 'tenant_name_example' # str | 
 
 try:
@@ -415,19 +415,19 @@ Returns all configuration settings for this level
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | optional tenant for this request (optional)
 learning_standard = 'learning_standard_example' # str | Required if singleSco is specified. Scopes the request to the provided learning standard. (optional)
 single_sco = true # bool | Required if learningStandard is specified. Scopes settings to whether a package has only one SCO or assignable unit within it or not. To apply a configuration setting to a learning standard for single and multi-SCO content, it must be set for both scopes.  (optional)
@@ -480,19 +480,19 @@ Get information about the credential used to authenticate this request.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | If specified, the tenant that will be used to store or validate the credentials or token. If not specified, the system data store / settings will be used. Note that PermissionsSchema contains 'tenantName' which should be used for any permissions that need to be scoped to a particular tenant.  (optional)
 
 try:
@@ -533,19 +533,19 @@ Get information on `credentialId` credential
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
 credential_id = 'credential_id_example' # str | 
 engine_tenant_name = 'engine_tenant_name_example' # str | If specified, the tenant that will be used to store or validate the credentials or token. If not specified, the system data store / settings will be used. Note that PermissionsSchema contains 'tenantName' which should be used for any permissions that need to be scoped to a particular tenant.  (optional)
 
@@ -588,19 +588,19 @@ List of credentials
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | If specified, the tenant that will be used to store or validate the credentials or token. If not specified, the system data store / settings will be used. Note that PermissionsSchema contains 'tenantName' which should be used for any permissions that need to be scoped to a particular tenant.  (optional)
 
 try:
@@ -641,19 +641,19 @@ Check the status of a PII deletion job with the provided job id.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 job_id = 'job_id_example' # str | 
 
@@ -696,19 +696,19 @@ Get list of all tenants
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
 include_deactivated = true # bool |  (optional)
 
 try:
@@ -751,19 +751,19 @@ Verifies the signature of the provided token, and if valid returns information a
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
 token = 'token_example' # str | 
 engine_tenant_name = 'engine_tenant_name_example' # str | If specified, the tenant that will be used to store or validate the credentials or token. If not specified, the system data store / settings will be used. Note that PermissionsSchema contains 'tenantName' which should be used for any permissions that need to be scoped to a particular tenant.  (optional)
 
@@ -806,20 +806,20 @@ Initiate a job to delete a user's Personal Identifying Information from the syst
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
-body = swagger_client.PIIDeletionRequestSchema() # PIIDeletionRequestSchema | 
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.PIIDeletionRequestSchema() # PIIDeletionRequestSchema | 
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 
 try:
@@ -861,19 +861,19 @@ Re-write settings, and statement pipe passwords using the current encryption set
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 
 try:
@@ -913,19 +913,19 @@ Reset credential secret
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
 credential_id = 'credential_id_example' # str | 
 engine_tenant_name = 'engine_tenant_name_example' # str | If specified, the tenant that will be used to store or validate the credentials or token. If not specified, the system data store / settings will be used. Note that PermissionsSchema contains 'tenantName' which should be used for any permissions that need to be scoped to a particular tenant.  (optional)
 
@@ -968,20 +968,20 @@ Set configuration settings for this level.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SettingsPostSchema() # SettingsPostSchema | 
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.SettingsPostSchema() # SettingsPostSchema | 
 engine_tenant_name = 'engine_tenant_name_example' # str | optional tenant for this request (optional)
 learning_standard = 'learning_standard_example' # str | Required if singleSco is specified. Scopes the request to the provided learning standard. (optional)
 single_sco = true # bool | Required if learningStandard is specified. Scopes settings to whether a package has only one SCO or assignable unit within it or not. To apply a configuration setting to a learning standard for single and multi-SCO content, it must be set for both scopes.  (optional)
@@ -1026,20 +1026,20 @@ Update `credentialId` credentials
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AppManagementApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CredentialRequestSchema() # CredentialRequestSchema | 
+api_instance = rustici_engine.AppManagementApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.CredentialRequestSchema() # CredentialRequestSchema | 
 credential_id = 'credential_id_example' # str | 
 engine_tenant_name = 'engine_tenant_name_example' # str | If specified, the tenant that will be used to store or validate the credentials or token. If not specified, the system data store / settings will be used. Note that PermissionsSchema contains 'tenantName' which should be used for any permissions that need to be scoped to a particular tenant.  (optional)
 

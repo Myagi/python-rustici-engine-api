@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.completion_amount_schema import CompletionAmountSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestCompletionAmountSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestCompletionAmountSchema(unittest.TestCase):
     def testCompletionAmountSchema(self):
         """Test CompletionAmountSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.completion_amount_schema.CompletionAmountSchema()  # noqa: E501
+        # model = rustici_engine.models.completion_amount_schema.CompletionAmountSchema()  # noqa: E501
         pass
 
 

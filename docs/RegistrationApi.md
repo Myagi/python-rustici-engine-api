@@ -1,4 +1,4 @@
-# swagger_client.RegistrationApi
+# rustici_engine.RegistrationApi
 
 All URIs are relative to */api/v2/*
 
@@ -36,20 +36,20 @@ Returns the link to use to launch this registration
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
-body = swagger_client.LaunchLinkRequestSchema() # LaunchLinkRequestSchema | 
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.LaunchLinkRequestSchema() # LaunchLinkRequestSchema | 
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 
@@ -93,19 +93,19 @@ Create a new instance for this registration specified by the registration ID
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 
@@ -147,20 +147,20 @@ Create a registration.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateRegistrationSchema() # CreateRegistrationSchema | 
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.CreateRegistrationSchema() # CreateRegistrationSchema | 
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 course_version = 56 # int | The version of the course you want to create the registration for. Unless you have a reason for using this you probably do not need to. (optional)
 
@@ -203,19 +203,19 @@ Delete `registrationId`
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 
@@ -257,19 +257,19 @@ Clears the `settingId` value for this registration
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 setting_id = 'setting_id_example' # str | 
@@ -313,19 +313,19 @@ delete global data associated with `registrationId`
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 
@@ -367,19 +367,19 @@ Delete instance `instanceId` of `registrationId`
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 instance_id = 56 # int | the instance of this registration
@@ -423,19 +423,19 @@ Clears the `settingId` value for this registration instance
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 instance_id = 56 # int | the instance of this registration
@@ -481,19 +481,19 @@ delete registration progress (clear registration)
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 
@@ -535,19 +535,19 @@ Does this registration exist?
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 
@@ -589,19 +589,19 @@ Returns all configuration settings for this registration
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 include_metadata = true # bool |  (optional)
@@ -652,19 +652,19 @@ Returns all configuration settings for this registration instance
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 instance_id = 56 # int | the instance of this registration
@@ -717,19 +717,19 @@ Returns history of this registration's launches
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 instance_id = 56 # int | the instance of this registration
@@ -776,19 +776,19 @@ Get registration progress for instance `instanceId` of `registrationId`
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 instance_id = 56 # int | the instance of this registration
@@ -841,19 +841,19 @@ Get xAPI statements for instance `instanceId` of `registrationId`
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 instance_id = 56 # int | the instance of this registration
@@ -904,19 +904,19 @@ Get all the instances of this the registration specified by the registration ID
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 since = '2013-10-20T19:20:30+01:00' # datetime | Only items updated since the specified ISO 8601 TimeStamp (inclusive) are included. If a time zone is not specified, UTC time zone will be used. (optional)
@@ -971,19 +971,19 @@ Returns history of this registration's launches
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 include_history_log = true # bool | Whether to include the history log in the launch history (optional)
@@ -1028,19 +1028,19 @@ Get registration progress for `registrationId`
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 include_child_results = true # bool | Include information about each learning object, not just the top level in the results (optional)
@@ -1091,19 +1091,19 @@ Get xAPI statements for `registrationId`
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 since = '2013-10-20T19:20:30+01:00' # datetime | Only items updated since the specified ISO 8601 TimeStamp (inclusive) are included. If a time zone is not specified, UTC time zone will be used. (optional)
@@ -1154,19 +1154,19 @@ The 'since' parameter exists to allow retrieving only registrations that have ch
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 course_id = 'course_id_example' # str | Only registrations for the specified course id will be included. (optional)
 learner_id = 'learner_id_example' # str | Only entries for the specified learner id will be included. (optional)
@@ -1223,20 +1223,20 @@ Set configuration settings for this registration.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SettingsPostSchema() # SettingsPostSchema | 
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.SettingsPostSchema() # SettingsPostSchema | 
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 
@@ -1279,20 +1279,20 @@ Set configuration settings for this registration instance.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.RegistrationApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SettingsPostSchema() # SettingsPostSchema | 
+api_instance = rustici_engine.RegistrationApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.SettingsPostSchema() # SettingsPostSchema | 
 engine_tenant_name = 'engine_tenant_name_example' # str | tenant for this request
 registration_id = 'registration_id_example' # str | id for this registration
 instance_id = 56 # int | the instance of this registration

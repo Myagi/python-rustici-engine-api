@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.message_schema import MessageSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestMessageSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestMessageSchema(unittest.TestCase):
     def testMessageSchema(self):
         """Test MessageSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.message_schema.MessageSchema()  # noqa: E501
+        # model = rustici_engine.models.message_schema.MessageSchema()  # noqa: E501
         pass
 
 

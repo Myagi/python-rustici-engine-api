@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.objective_schema import ObjectiveSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestObjectiveSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestObjectiveSchema(unittest.TestCase):
     def testObjectiveSchema(self):
         """Test ObjectiveSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.objective_schema.ObjectiveSchema()  # noqa: E501
+        # model = rustici_engine.models.objective_schema.ObjectiveSchema()  # noqa: E501
         pass
 
 

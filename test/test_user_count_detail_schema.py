@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.user_count_detail_schema import UserCountDetailSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestUserCountDetailSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestUserCountDetailSchema(unittest.TestCase):
     def testUserCountDetailSchema(self):
         """Test UserCountDetailSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.user_count_detail_schema.UserCountDetailSchema()  # noqa: E501
+        # model = rustici_engine.models.user_count_detail_schema.UserCountDetailSchema()  # noqa: E501
         pass
 
 

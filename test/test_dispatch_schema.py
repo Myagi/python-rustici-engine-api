@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.dispatch_schema import DispatchSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestDispatchSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestDispatchSchema(unittest.TestCase):
     def testDispatchSchema(self):
         """Test DispatchSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.dispatch_schema.DispatchSchema()  # noqa: E501
+        # model = rustici_engine.models.dispatch_schema.DispatchSchema()  # noqa: E501
         pass
 
 

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.import_fetch_request_schema import ImportFetchRequestSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestImportFetchRequestSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestImportFetchRequestSchema(unittest.TestCase):
     def testImportFetchRequestSchema(self):
         """Test ImportFetchRequestSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.import_fetch_request_schema.ImportFetchRequestSchema()  # noqa: E501
+        # model = rustici_engine.models.import_fetch_request_schema.ImportFetchRequestSchema()  # noqa: E501
         pass
 
 

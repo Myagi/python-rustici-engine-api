@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.course_list_non_paged_schema import CourseListNonPagedSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestCourseListNonPagedSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestCourseListNonPagedSchema(unittest.TestCase):
     def testCourseListNonPagedSchema(self):
         """Test CourseListNonPagedSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.course_list_non_paged_schema.CourseListNonPagedSchema()  # noqa: E501
+        # model = rustici_engine.models.course_list_non_paged_schema.CourseListNonPagedSchema()  # noqa: E501
         pass
 
 

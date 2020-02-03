@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.xapi_statement_reference import XapiStatementReference  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestXapiStatementReference(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestXapiStatementReference(unittest.TestCase):
     def testXapiStatementReference(self):
         """Test XapiStatementReference"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.xapi_statement_reference.XapiStatementReference()  # noqa: E501
+        # model = rustici_engine.models.xapi_statement_reference.XapiStatementReference()  # noqa: E501
         pass
 
 

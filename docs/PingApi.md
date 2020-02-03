@@ -1,4 +1,4 @@
-# swagger_client.PingApi
+# rustici_engine.PingApi
 
 All URIs are relative to */api/v2/*
 
@@ -15,19 +15,19 @@ Get back a message indicating that the API is working.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.PingApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.PingApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | optional tenant for this request (optional)
 
 try:

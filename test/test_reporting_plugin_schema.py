@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.reporting_plugin_schema import ReportingPluginSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestReportingPluginSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestReportingPluginSchema(unittest.TestCase):
     def testReportingPluginSchema(self):
         """Test ReportingPluginSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.reporting_plugin_schema.ReportingPluginSchema()  # noqa: E501
+        # model = rustici_engine.models.reporting_plugin_schema.ReportingPluginSchema()  # noqa: E501
         pass
 
 

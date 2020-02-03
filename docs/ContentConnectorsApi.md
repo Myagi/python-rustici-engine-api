@@ -1,4 +1,4 @@
-# swagger_client.ContentConnectorsApi
+# rustici_engine.ContentConnectorsApi
 
 All URIs are relative to */api/v2/*
 
@@ -23,20 +23,20 @@ Creates a connector for the specified tenant, or a system-wide connector if tena
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ContentConnectorsApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateConnectorSchema() # CreateConnectorSchema | 
+api_instance = rustici_engine.ContentConnectorsApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.CreateConnectorSchema() # CreateConnectorSchema | 
 engine_tenant_name = 'engine_tenant_name_example' # str | optional tenant for this request (optional)
 
 try:
@@ -80,19 +80,19 @@ Gets the list of content available, either for all connectors, or for only a spe
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ContentConnectorsApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.ContentConnectorsApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | optional tenant for this request (optional)
 connector_id = 'connector_id_example' # str | the connector id (optional)
 since = '2013-10-20T19:20:30+01:00' # datetime | Only items updated since the specified ISO 8601 TimeStamp (inclusive) are included. If a time zone is not specified, UTC time zone will be used. (optional)
@@ -147,19 +147,19 @@ Gets list of connectors, for the specified tenant, or connectors that apply to a
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ContentConnectorsApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.ContentConnectorsApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | optional tenant for this request (optional)
 
 try:
@@ -200,19 +200,19 @@ Check the status of a refresh job.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ContentConnectorsApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.ContentConnectorsApi(rustici_engine.ApiClient(configuration))
 refresh_job_id = 'refresh_job_id_example' # str | The Id received when the refresh job was submitted to the refreshJobs resource.
 engine_tenant_name = 'engine_tenant_name_example' # str | optional tenant for this request (optional)
 
@@ -257,19 +257,19 @@ Starts a job to refresh the list of content available, either for all connectors
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ContentConnectorsApi(swagger_client.ApiClient(configuration))
+api_instance = rustici_engine.ContentConnectorsApi(rustici_engine.ApiClient(configuration))
 engine_tenant_name = 'engine_tenant_name_example' # str | optional tenant for this request (optional)
 connector_id = 'connector_id_example' # str | the connector id (optional)
 
@@ -314,20 +314,20 @@ Searches the remote content available, either for all connectors, or for only a 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ContentConnectorsApi(swagger_client.ApiClient(configuration))
-body = swagger_client.ConnectorContentSearchSchema() # ConnectorContentSearchSchema | 
+api_instance = rustici_engine.ContentConnectorsApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.ConnectorContentSearchSchema() # ConnectorContentSearchSchema | 
 engine_tenant_name = 'engine_tenant_name_example' # str | optional tenant for this request (optional)
 
 try:
@@ -371,20 +371,20 @@ Update the specified connector.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rustici_engine
+from rustici_engine.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basic
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 # Configure OAuth2 access token for authorization: oauth
-configuration = swagger_client.Configuration()
+configuration = rustici_engine.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ContentConnectorsApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateConnectorSchema() # UpdateConnectorSchema | 
+api_instance = rustici_engine.ContentConnectorsApi(rustici_engine.ApiClient(configuration))
+body = rustici_engine.UpdateConnectorSchema() # UpdateConnectorSchema | 
 connector_id = 'connector_id_example' # str | the connector id
 engine_tenant_name = 'engine_tenant_name_example' # str | optional tenant for this request (optional)
 

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.connector_content_search_context_schema import ConnectorContentSearchContextSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestConnectorContentSearchContextSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestConnectorContentSearchContextSchema(unittest.TestCase):
     def testConnectorContentSearchContextSchema(self):
         """Test ConnectorContentSearchContextSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.connector_content_search_context_schema.ConnectorContentSearchContextSchema()  # noqa: E501
+        # model = rustici_engine.models.connector_content_search_context_schema.ConnectorContentSearchContextSchema()  # noqa: E501
         pass
 
 

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.lti_reporter_schema import LtiReporterSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestLtiReporterSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestLtiReporterSchema(unittest.TestCase):
     def testLtiReporterSchema(self):
         """Test LtiReporterSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.lti_reporter_schema.LtiReporterSchema()  # noqa: E501
+        # model = rustici_engine.models.lti_reporter_schema.LtiReporterSchema()  # noqa: E501
         pass
 
 

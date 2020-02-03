@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.score_schema import ScoreSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestScoreSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestScoreSchema(unittest.TestCase):
     def testScoreSchema(self):
         """Test ScoreSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.score_schema.ScoreSchema()  # noqa: E501
+        # model = rustici_engine.models.score_schema.ScoreSchema()  # noqa: E501
         pass
 
 

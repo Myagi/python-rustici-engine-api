@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.link_schema import LinkSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestLinkSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestLinkSchema(unittest.TestCase):
     def testLinkSchema(self):
         """Test LinkSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.link_schema.LinkSchema()  # noqa: E501
+        # model = rustici_engine.models.link_schema.LinkSchema()  # noqa: E501
         pass
 
 

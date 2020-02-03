@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.pii_deletion_result_schema import PIIDeletionResultSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestPIIDeletionResultSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestPIIDeletionResultSchema(unittest.TestCase):
     def testPIIDeletionResultSchema(self):
         """Test PIIDeletionResultSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.pii_deletion_result_schema.PIIDeletionResultSchema()  # noqa: E501
+        # model = rustici_engine.models.pii_deletion_result_schema.PIIDeletionResultSchema()  # noqa: E501
         pass
 
 

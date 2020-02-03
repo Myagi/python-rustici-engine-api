@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.xapi_credential_put_schema import XapiCredentialPutSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestXapiCredentialPutSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestXapiCredentialPutSchema(unittest.TestCase):
     def testXapiCredentialPutSchema(self):
         """Test XapiCredentialPutSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.xapi_credential_put_schema.XapiCredentialPutSchema()  # noqa: E501
+        # model = rustici_engine.models.xapi_credential_put_schema.XapiCredentialPutSchema()  # noqa: E501
         pass
 
 

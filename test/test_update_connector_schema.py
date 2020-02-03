@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.update_connector_schema import UpdateConnectorSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestUpdateConnectorSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestUpdateConnectorSchema(unittest.TestCase):
     def testUpdateConnectorSchema(self):
         """Test UpdateConnectorSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.update_connector_schema.UpdateConnectorSchema()  # noqa: E501
+        # model = rustici_engine.models.update_connector_schema.UpdateConnectorSchema()  # noqa: E501
         pass
 
 

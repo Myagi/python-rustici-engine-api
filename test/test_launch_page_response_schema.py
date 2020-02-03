@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.launch_page_response_schema import LaunchPageResponseSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestLaunchPageResponseSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestLaunchPageResponseSchema(unittest.TestCase):
     def testLaunchPageResponseSchema(self):
         """Test LaunchPageResponseSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.launch_page_response_schema.LaunchPageResponseSchema()  # noqa: E501
+        # model = rustici_engine.models.launch_page_response_schema.LaunchPageResponseSchema()  # noqa: E501
         pass
 
 

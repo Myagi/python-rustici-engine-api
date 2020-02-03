@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.course_activity_schema import CourseActivitySchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestCourseActivitySchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestCourseActivitySchema(unittest.TestCase):
     def testCourseActivitySchema(self):
         """Test CourseActivitySchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.course_activity_schema.CourseActivitySchema()  # noqa: E501
+        # model = rustici_engine.models.course_activity_schema.CourseActivitySchema()  # noqa: E501
         pass
 
 

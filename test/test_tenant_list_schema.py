@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.tenant_list_schema import TenantListSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestTenantListSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestTenantListSchema(unittest.TestCase):
     def testTenantListSchema(self):
         """Test TenantListSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.tenant_list_schema.TenantListSchema()  # noqa: E501
+        # model = rustici_engine.models.tenant_list_schema.TenantListSchema()  # noqa: E501
         pass
 
 

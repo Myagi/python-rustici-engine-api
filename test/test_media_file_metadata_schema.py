@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.media_file_metadata_schema import MediaFileMetadataSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestMediaFileMetadataSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestMediaFileMetadataSchema(unittest.TestCase):
     def testMediaFileMetadataSchema(self):
         """Test MediaFileMetadataSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.media_file_metadata_schema.MediaFileMetadataSchema()  # noqa: E501
+        # model = rustici_engine.models.media_file_metadata_schema.MediaFileMetadataSchema()  # noqa: E501
         pass
 
 

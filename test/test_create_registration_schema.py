@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.create_registration_schema import CreateRegistrationSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestCreateRegistrationSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestCreateRegistrationSchema(unittest.TestCase):
     def testCreateRegistrationSchema(self):
         """Test CreateRegistrationSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.create_registration_schema.CreateRegistrationSchema()  # noqa: E501
+        # model = rustici_engine.models.create_registration_schema.CreateRegistrationSchema()  # noqa: E501
         pass
 
 

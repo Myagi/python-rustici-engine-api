@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.xapi_context_activity import XapiContextActivity  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestXapiContextActivity(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestXapiContextActivity(unittest.TestCase):
     def testXapiContextActivity(self):
         """Test XapiContextActivity"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.xapi_context_activity.XapiContextActivity()  # noqa: E501
+        # model = rustici_engine.models.xapi_context_activity.XapiContextActivity()  # noqa: E501
         pass
 
 

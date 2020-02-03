@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.settings_individual_schema import SettingsIndividualSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestSettingsIndividualSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestSettingsIndividualSchema(unittest.TestCase):
     def testSettingsIndividualSchema(self):
         """Test SettingsIndividualSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.settings_individual_schema.SettingsIndividualSchema()  # noqa: E501
+        # model = rustici_engine.models.settings_individual_schema.SettingsIndividualSchema()  # noqa: E501
         pass
 
 

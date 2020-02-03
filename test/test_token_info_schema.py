@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.token_info_schema import TokenInfoSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestTokenInfoSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestTokenInfoSchema(unittest.TestCase):
     def testTokenInfoSchema(self):
         """Test TokenInfoSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.token_info_schema.TokenInfoSchema()  # noqa: E501
+        # model = rustici_engine.models.token_info_schema.TokenInfoSchema()  # noqa: E501
         pass
 
 

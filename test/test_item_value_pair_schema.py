@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.item_value_pair_schema import ItemValuePairSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestItemValuePairSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestItemValuePairSchema(unittest.TestCase):
     def testItemValuePairSchema(self):
         """Test ItemValuePairSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.item_value_pair_schema.ItemValuePairSchema()  # noqa: E501
+        # model = rustici_engine.models.item_value_pair_schema.ItemValuePairSchema()  # noqa: E501
         pass
 
 

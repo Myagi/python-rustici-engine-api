@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.runtime_interaction_schema import RuntimeInteractionSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestRuntimeInteractionSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestRuntimeInteractionSchema(unittest.TestCase):
     def testRuntimeInteractionSchema(self):
         """Test RuntimeInteractionSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.runtime_interaction_schema.RuntimeInteractionSchema()  # noqa: E501
+        # model = rustici_engine.models.runtime_interaction_schema.RuntimeInteractionSchema()  # noqa: E501
         pass
 
 

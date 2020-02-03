@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.o_auth_credentials_schema import OAuthCredentialsSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestOAuthCredentialsSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestOAuthCredentialsSchema(unittest.TestCase):
     def testOAuthCredentialsSchema(self):
         """Test OAuthCredentialsSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.o_auth_credentials_schema.OAuthCredentialsSchema()  # noqa: E501
+        # model = rustici_engine.models.o_auth_credentials_schema.OAuthCredentialsSchema()  # noqa: E501
         pass
 
 

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.string_result_schema import StringResultSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestStringResultSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestStringResultSchema(unittest.TestCase):
     def testStringResultSchema(self):
         """Test StringResultSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.string_result_schema.StringResultSchema()  # noqa: E501
+        # model = rustici_engine.models.string_result_schema.StringResultSchema()  # noqa: E501
         pass
 
 

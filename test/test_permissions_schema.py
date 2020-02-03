@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.permissions_schema import PermissionsSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestPermissionsSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestPermissionsSchema(unittest.TestCase):
     def testPermissionsSchema(self):
         """Test PermissionsSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.permissions_schema.PermissionsSchema()  # noqa: E501
+        # model = rustici_engine.models.permissions_schema.PermissionsSchema()  # noqa: E501
         pass
 
 

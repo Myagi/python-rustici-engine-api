@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.xapi_agent_group import XapiAgentGroup  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestXapiAgentGroup(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestXapiAgentGroup(unittest.TestCase):
     def testXapiAgentGroup(self):
         """Test XapiAgentGroup"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.xapi_agent_group.XapiAgentGroup()  # noqa: E501
+        # model = rustici_engine.models.xapi_agent_group.XapiAgentGroup()  # noqa: E501
         pass
 
 

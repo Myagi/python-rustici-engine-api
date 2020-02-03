@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import rustici_engine
 from models.learner_schema import LearnerSchema  # noqa: E501
-from swagger_client.rest import ApiException
+from rustici_engine.rest import ApiException
 
 
 class TestLearnerSchema(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestLearnerSchema(unittest.TestCase):
     def testLearnerSchema(self):
         """Test LearnerSchema"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.learner_schema.LearnerSchema()  # noqa: E501
+        # model = rustici_engine.models.learner_schema.LearnerSchema()  # noqa: E501
         pass
 
 
